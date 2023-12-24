@@ -1,0 +1,41 @@
+/* 
+.book_1:hover {
+    background-color: red;
+}
+
+.book_2 {
+    background-color: green;
+}
+
+.book_3 {
+    background-color: tomato;
+}
+
+
+
+.book_4 {
+    background-color: cyan;
+}
+
+.book_5 {
+    background-color: lawngreen;
+}  */
+
+
+
+.book_container {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(2, 450px);
+    text-align: center;
+    justify-content: space-around;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.book_container img {
+    width: 150px;
+    height: 200px;
+    padding: 8px 32px;
+    
+}

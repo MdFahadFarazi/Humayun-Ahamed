@@ -1,0 +1,21 @@
+
+
+.h_img {
+    padding: 10px 20px;
+    float: right;
+    width: 400px;
+    height: 250px;
+    clear: both;
+    
+}
+
+.heading {
+    text-align: center;
+    font-style: oblique;
+}
+
+.h-text {
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
